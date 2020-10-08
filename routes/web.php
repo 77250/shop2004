@@ -27,3 +27,6 @@ Route::any('/goods/update/{id}','controller\goods@update');
 Route::get('/user','controller\user@user');
 Route::post('/user/add','controller\user@add');
 Route::get('/user/list','controller\user@list');
+
+
+Route::get('/users','controller\users@users');
